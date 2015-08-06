@@ -15,15 +15,10 @@
 									<h1 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 									<p class="byline vcard">
 										<?php printf( __( 'Posted', 'bonestheme' ) . ' <time class="updated" datetime="%1$s" pubdate>%2$s</time> ' . __('by', 'bonestheme' ) . ' <span class="author">%3$s</span>', get_the_time('Y-m-j'), get_the_time(get_option('date_format')), get_the_author_link( get_the_author_meta( 'ID' ) )); ?>
-									</p>
-<<<<<<< HEAD
-									<?php printf( '<p class="header-category"><span class="cat-list">' . __('filed under', 'bonestheme' ) . ': %1$s</span></p><span class="triangle"></span>' , get_the_category_list(', ') ); ?>
-=======
 									<?php printf( '<p class="header-category"><span class="triangle"></span>' . __('filed under', 'bonestheme' ) . ': %1$s</p>' , get_the_category_list(', ') ); ?>
->>>>>>> 8af1c2a8ed9b7c268cf93ebee3451243f0dbd8ad
 
                   <?php the_tags( '<p class="footer-tags tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
-                  
+
 
 								</header>
 

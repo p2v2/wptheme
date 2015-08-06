@@ -49,14 +49,7 @@
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-
-					<?php // if you'd like to use the site description you can un-comment it below ?>
-<<<<<<< HEAD
-					<?php // bloginfo('description'); ?>
-=======
 					<?php  bloginfo('description'); ?>
->>>>>>> 8af1c2a8ed9b7c268cf93ebee3451243f0dbd8ad
-
 
 					<nav role="navigation">
 						<?php wp_nav_menu(array(

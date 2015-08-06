@@ -251,11 +251,7 @@ POSTS & CONTENT STYLES
 *********************/
 
 #container {
-<<<<<<< HEAD
- background: url(../images/gray_jean.png);
-=======
   background: url(../images/gray_jean.png);
->>>>>>> 8af1c2a8ed9b7c268cf93ebee3451243f0dbd8ad
 }
 
 #content {
@@ -273,46 +269,17 @@ POSTS & CONTENT STYLES
 				padding: 1.5em;
 				position: relative;
 			}
-			
+
 			.header-category {
 			  position: absolute;
 			  top: 0;
-<<<<<<< HEAD
-			  right: -20px;
-			  padding: 10px 10px 10px 20px;
-			  background-color: #3d9970;
-        z-index: 2;
-        font: 13px/15px "Lato";
-        box-shadow: 0 0 4px rgba(0,0,0,0.25);
-        color: $light-gray;
-
-        a {
-          color: $light-gray;
-        }
-			}
-
-      .cat-list {
-
-      }
-
-			.triangle{
-        width: 0; 
-        height: 0; 
-        position: absolute;
-        top: 28px;
-        right: -40px;
-        border-color: transparent transparent transparent #3d9970;
-        border-width: 20px;
-        border-style: solid;
-      }
-=======
 			  right: 0;
 			  padding: 10px 10px 10px 30px;
 			  background-color: $gray;
-			
+
 			  .triangle {
-			    width: 0; 
-          height: 0; 
+			    width: 0;
+          height: 0;
           position: absolute;
           top: 2px;
           left: 0;
@@ -320,11 +287,8 @@ POSTS & CONTENT STYLES
           border-bottom: 20px solid transparent;
           border-left: 20px solid white;
 			  }
-			
+
 			}
-			
->>>>>>> 8af1c2a8ed9b7c268cf93ebee3451243f0dbd8ad
-			
 
 			footer {
 				padding: 1.5em;
