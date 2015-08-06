@@ -1304,12 +1304,20 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
+<<<<<<< HEAD
   color: #fc2a00;
+=======
+  color: #f01d4f;
+>>>>>>> 8af1c2a8ed9b7c268cf93ebee3451243f0dbd8ad
   /* on hover */
   /* on click */
   /* mobile tap color */ }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
+<<<<<<< HEAD
     color: #ce2200; }
+=======
+    color: #d10e3c; }
+>>>>>>> 8af1c2a8ed9b7c268cf93ebee3451243f0dbd8ad
   a:link, a:visited:link {
     /*
     this highlights links on iPhones/iPads.
@@ -1358,7 +1366,11 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
+<<<<<<< HEAD
   background: #323944 url(../images/debut_dark.png) repeat; }
+=======
+  background-color: #323944; }
+>>>>>>> 8af1c2a8ed9b7c268cf93ebee3451243f0dbd8ad
 
 #logo {
   margin: 0.75em 0; }
@@ -1408,9 +1420,12 @@ and more scalable.
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+<<<<<<< HEAD
 #container {
   background: url(../images/gray_jean.png); }
 
+=======
+>>>>>>> 8af1c2a8ed9b7c268cf93ebee3451243f0dbd8ad
 #content {
   margin-top: 1.5em; }
 
@@ -1421,6 +1436,7 @@ POSTS & CONTENT STYLES
   border: 1px solid #cccccc; }
   .hentry header {
     border-bottom: 1px solid #f8f9fa;
+<<<<<<< HEAD
     padding: 1.5em;
     position: relative; }
   .hentry .header-category {
@@ -1444,6 +1460,9 @@ POSTS & CONTENT STYLES
     border-color: transparent transparent transparent #3d9970;
     border-width: 20px;
     border-style: solid; }
+=======
+    padding: 1.5em; }
+>>>>>>> 8af1c2a8ed9b7c268cf93ebee3451243f0dbd8ad
   .hentry footer {
     padding: 1.5em;
     border-top: 1px solid #f8f9fa; }
@@ -2011,7 +2030,11 @@ you can add resource intensive styles.
   
   ******************************************************************/
   .wrap {
+<<<<<<< HEAD
     width: 1200px; } }
+=======
+    width: 1040px; } }
+>>>>>>> 8af1c2a8ed9b7c268cf93ebee3451243f0dbd8ad
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
