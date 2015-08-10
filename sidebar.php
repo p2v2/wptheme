@@ -4,6 +4,12 @@
 
 		<?php dynamic_sidebar( 'sidebar1' ); ?>
 
+		<div class="widget" id="pinterest-profile">
+			<a data-pin-do="embedUser" href="http://www.pinterest.com/1825steps/" data-pin-scale-width="80" data-pin-scale-height="320" data-pin-board-width="336">Visit Preeti's profile on Pinterest.</a>
+	<!-- Please call pinit.js only once per page -->
+			<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+		</div>
+
 		<div class="widget badges">
 	    <h2 class="widget-header">Making your shopping easy</h2>
 	    <a href='http://www.ebates.com/rf.do?referrerid=4G6sn%2FOAxiTD1BWHKGOU5A%3D%3D' target='_blank' rel='nofollow'><img src='http://www.ebates.com/referral/2012/global_files/images/ebates_logo.png' alt='Ebates Coupons and Cash Back' height='31' width='171' border='0'/></a>

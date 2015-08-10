@@ -152,20 +152,27 @@ HEADER STYLES
 *********************/
 
 .header {
-	background: $black url(../images/debut_dark.png) repeat;
+	/*background: $black url(../images/debut_dark.png) repeat;
 	position: fixed;
 	width: 100%;
 	z-index: 3;
 	-moz-box-shadow: 0px 11px 12px -6px rgba(0,0,0,0.5);
-	box-shadow: 0px 11px 12px -6px rgba(0,0,0,0.5);
+	box-shadow: 0px 11px 12px -6px rgba(0,0,0,0.5); */
 }
 
 	#logo {
-		margin: 0.75em 0;
+		margin: 0.75em 0 0.25em;
+		text-align: center;
+		/*background: $black url(../images/debut_dark.png) repeat; */
 
 		a {
 			color: $white;
 		}
+	}
+
+	nav {
+		background: $black url(../images/debut_dark.png) repeat;
+		text-align: center;
 	}
 
 /*********************
@@ -260,14 +267,18 @@ POSTS & CONTENT STYLES
 }
 
 #content {
-	padding-top: 137px;
+//	padding-top: 137px;
+	margin-top: 2em;
 }
+		#main {
+			padding-right: 1.5em;
+		}
 
 		.hentry {
 			background-color: $white;
 			border-radius: 3px;
+			box-shadow: 0 1px 3px rgba(0, 0, 0, .33);
 			margin-bottom: 1.5em;
-			border: 1px solid $border-color;
 
 			header {
 				border-bottom: 1px solid $light-gray;
@@ -292,10 +303,9 @@ POSTS & CONTENT STYLES
 			}
 
       .cat-list {
-
       }
 
-			.triangle{
+			.triangle {
         width: 0;
         height: 0;
         position: absolute;
@@ -862,11 +872,18 @@ COMMENT FORM STYLES
 SIDEBARS & ASIDES
 *********************/
 
-.sidebar {}
+.sidebar {
+	.widget {
+		padding: 1em;
+	}
+}
 
 	.widgettitle {}
 
 	.widget {
+		background: $white;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, .33);
+		border-radius: 3px;
 
 		ul {
 
@@ -885,6 +902,17 @@ SIDEBARS & ASIDES
 
 		h2 {
 			font-size: 1em;
+		}
+
+		&.badges {
+			a {
+				display: block;
+				text-align: center;
+			}
+		}
+
+		&#pinterest-profile {
+			padding: 0;
 		}
 
 	}

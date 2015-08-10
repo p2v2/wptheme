@@ -28,7 +28,7 @@
 		<meta name="msapplication-TileColor" content="#f01d4f">
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
 
-		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+		<link rel="pingback" href="<?php  bloginfo('pingback_url'); ?>">
 
 		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
@@ -48,8 +48,8 @@
 				<div id="inner-header" class="wrap cf">
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-					<?php  bloginfo('description'); ?>
+					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>" rel="nofollow"><img src="http://www.1825steps.com/wp-content/themes/apna/images/title.png"></a></p>
+					<?php /* bloginfo('description');*/ ?>
 
 					<nav role="navigation">
 						<?php wp_nav_menu(array(
