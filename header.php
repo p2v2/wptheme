@@ -66,6 +66,11 @@
     					'fallback_cb' => ''                             // fallback function (if there is one)
 						)); ?>
 
+            <div class="follow">
+              <a href="www.twitter.com/1825steps.com" title="Follow us on Twitter" class="fa-icon fa-twitter" target="_blank"></a>
+              <a href="www.1825steps.com/feed" title="Add to your fav reader" class="fa-icon fa-rss" target="_blank"></a>
+            </div>
+
 					</nav>
 
 				</div>
